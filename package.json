@@ -29,6 +29,6 @@
     "commit": "git-cz",
     "lint": "eslint --config ./.eslintrc.yaml --ignore-path ./.eslintignore --ext .js,.ts .",
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,json,md,ts}\"",
-    "prettier:list-different": "prettier --config .prettierrc --list-different \"**/*.{js,json,md,ts}\""
+    "prettier:check": "prettier --check --config .prettierrc \"**/*.{js,json,md,ts}\""
   }
 }
