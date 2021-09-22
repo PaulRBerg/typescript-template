@@ -5,10 +5,9 @@
 !.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
-build/
-dist/
-lib/
-node_modules/
+**/build
+**/dist
+**/node_modules
 
 # files
 *.env

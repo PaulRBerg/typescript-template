@@ -1,9 +1,8 @@
 # directories
 .yarn/
-build/
-dist/
-lib/
-node_modules/
+**/build
+**/dist
+**/node_modules
 
 # files
 *.env
