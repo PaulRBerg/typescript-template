@@ -10,9 +10,10 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "noImplicitAny": true,
-    "outDir": "dist",
+    "outDir": "./dist",
     "removeComments": true,
     "resolveJsonModule": true,
+    "rootDir": "./src",
     "sourceMap": false,
     "strict": true,
     "target": "es6"
