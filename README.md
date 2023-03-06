@@ -12,12 +12,10 @@ to create a new repository with this repo as the initial state.
 This template comes with sensible default configurations in the following files:
 
 ```text
-├── .commitlintrc.yml
 ├── .editorconfig
 ├── .eslintignore
 ├── .eslintrc.yml
 ├── .gitignore
-├── .lintstagedrc.yml
 ├── .prettierignore
 ├── .prettierrc.yml
 ├── .yarnrc.yml
