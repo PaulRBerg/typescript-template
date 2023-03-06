@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": {
     "name": "Paul Razvan Berg",
-    "url": "https://github.com/paulrberg"
+    "url": "https://github.com/PaulRBerg"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",

@@ -4,7 +4,7 @@ A template for developing TypeScript projects, with sensible defaults.
 
 ## Getting Started
 
-Click the [`Use this template`](https://github.com/paulrberg/typescript-template/generate) button at the top of the page
+Click the [`Use this template`](https://github.com/PaulRBerg/typescript-template/generate) button at the top of the page
 to create a new repository with this repo as the initial state.
 
 ## Sensible Defaults
