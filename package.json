@@ -33,7 +33,7 @@
     "yarn"
   ],
   "main": "./dist/index.js",
-  "packageManager": "yarn@3.2.2",
+  "packageManager": "yarn@3.4.1",
   "publishConfig": {
     "access": "public"
   },
