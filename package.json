@@ -27,20 +27,19 @@
   "keywords": [
     "eslint",
     "javascript",
+    "pnpm",
     "prettier",
     "template",
-    "typescript",
-    "yarn"
+    "typescript"
   ],
   "main": "./dist/index.js",
-  "packageManager": "yarn@3.4.1",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "build": "tsc --build \"tsconfig.prod.json\"",
     "clean": "rimraf dist",
-    "lint": "yarn lint:ts && yarn prettier:check && yarn typecheck",
+    "lint": "pnpm lint:ts && pnpm prettier:check && pnpm typecheck",
     "lint:ts": "eslint --ext .js,.ts .",
     "prettier:check": "prettier --check \"**/*.{js,json,md,ts,yml}\"",
     "prettier:write": "prettier --write \"**/*.{js,json,md,ts,yml}\"",

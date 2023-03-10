@@ -18,7 +18,6 @@ This template comes with sensible default configurations in the following files:
 ├── .gitignore
 ├── .prettierignore
 ├── .prettierrc.yml
-├── .yarnrc.yml
 ├── package.json
 ├── tsconfig.json
 └── tsconfig.prod.json
