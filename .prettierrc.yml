@@ -1,4 +1,6 @@
 bracketSpacing: true
+plugins:
+  - "@trivago/prettier-plugin-sort-imports"
 printWidth: 120
 proseWrap: "always"
 singleQuote: false
@@ -12,3 +14,4 @@ overrides:
       importOrderParserPlugins: ["typescript"]
       importOrderSeparation: true
       importOrderSortSpecifiers: true
+      parser: "typescript"
