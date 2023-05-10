@@ -19,10 +19,10 @@
     "typescript": "^4.8.4"
   },
   "files": [
-    "/dist/**/*.d.ts",
-    "/dist/**/*.d.ts.map",
-    "/dist/**/*.js",
-    "/dist/**/*.js.map"
+    "dist/**/*.d.ts",
+    "dist/**/*.d.ts.map",
+    "dist/**/*.js",
+    "dist/**/*.js.map"
   ],
   "keywords": [
     "eslint",
