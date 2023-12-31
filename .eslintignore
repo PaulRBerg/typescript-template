@@ -1,5 +1,4 @@
 # directories
-build
 dist
 node_modules
 
@@ -11,4 +10,5 @@ node_modules
 .pnp.*
 npm-debug.log
 package-lock.json
+pnpm-lock.yaml
 yarn.lock

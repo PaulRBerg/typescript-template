@@ -25,9 +25,9 @@
     "dist/**/*.js.map"
   ],
   "keywords": [
+    "bun",
     "eslint",
     "javascript",
-    "pnpm",
     "prettier",
     "template",
     "typescript"
@@ -39,7 +39,7 @@
   "scripts": {
     "build": "tsc --build \"tsconfig.prod.json\"",
     "clean": "rimraf dist",
-    "lint": "pnpm lint:ts && pnpm prettier:check && pnpm typecheck",
+    "lint": "bun run lint:ts && bun run prettier:check && bun run typecheck",
     "lint:ts": "eslint --ext .js,.ts .",
     "prettier:check": "prettier --check \"**/*.{js,json,md,ts,yml}\"",
     "prettier:write": "prettier --write \"**/*.{js,json,md,ts,yml}\"",
