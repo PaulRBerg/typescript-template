@@ -1,10 +1,7 @@
-bracketSpacing: true
 plugins:
   - "@trivago/prettier-plugin-sort-imports"
 printWidth: 120
 proseWrap: "always"
-singleQuote: false
-tabWidth: 2
 trailingComma: "all"
 
 overrides:
