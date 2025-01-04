@@ -5,9 +5,8 @@ proseWrap: "always"
 trailingComma: "all"
 
 overrides:
-  - files: "*.ts"
+  - files: ["*.ts", "*.tsx"]
     options:
-      importOrder: ["<THIRD_PARTY_MODULES>", "^[./]"]
       importOrderParserPlugins: ["typescript"]
       importOrderSeparation: true
       importOrderSortSpecifiers: true
