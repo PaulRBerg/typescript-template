@@ -39,11 +39,10 @@
   "scripts": {
     "build": "tsc --build \"tsconfig.prod.json\"",
     "clean": "rimraf dist",
-    "lint": "bun run lint:ts && bun run prettier:check && bun run typecheck",
-    "lint:ts": "eslint --ext .js,.ts .",
+    "lint": "bun run lint:ts && bun run prettier:check",
+    "lint:ts": "eslint --ext .js,.ts . && tsc --noEmit",
     "prettier:check": "prettier --check \"**/*.{js,json,md,ts,yml}\"",
-    "prettier:write": "prettier --write \"**/*.{js,json,md,ts,yml}\"",
-    "typecheck": "tsc --noEmit"
+    "prettier:write": "prettier --write \"**/*.{js,json,md,ts,yml}\""
   },
   "types": "./dist/index.d.ts"
 }
