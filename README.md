@@ -1,6 +1,6 @@
 # TypeScript Template
 
-A template for developing TypeScript projects, with sensible defaults.
+A template for developing TypeScript-based Node.js projects, with sensible defaults.
 
 ## Getting Started
 
@@ -9,25 +9,26 @@ to create a new repository with this repo as the initial state.
 
 ## Features
 
-### Sensible Defaults
+### Tools
+
+- [TypeScript](https://typescriptlang.org)
+- [Bun](https://bun.sh)
+- [Biome](https://biomejs.dev)
+
+### Configuration
 
 This template comes with sensible default configurations in the following files:
 
 ```text
 ├── .editorconfig
-├── .eslintignore
-├── .eslintrc.yml
 ├── .gitignore
 ├── .prettierignore
 ├── .prettierrc.yml
+├── biome.jsonc
 ├── package.json
 ├── tsconfig.json
-└── tsconfig.prod.json
+└── tsconfig.build.json
 ```
-
-### Dependency Management
-
-This template uses [Bun](https://bun.sh) for managing dependencies.
 
 ## Usage
 
