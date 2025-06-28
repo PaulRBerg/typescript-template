@@ -10,6 +10,7 @@
     }
   },
   "files": {
+    "includes": ["**/*.{js,json,jsonc,jsx,ts,tsx}", "!node_modules/**/*"],
     "maxSize": 5242880 // 5MB
   },
   "formatter": {
