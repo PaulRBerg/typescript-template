@@ -1,2 +1,5 @@
-const message: string = "Hello World";
-console.log({ message });
+function greet(name: string): string {
+  return `Hello, ${name}!`;
+}
+
+console.log(greet("world"));
