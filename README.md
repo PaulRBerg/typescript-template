@@ -1,5 +1,13 @@
 # TypeScript Template
 
+> [!WARNING]
+>
+> This template is deprecated and no longer maintained. [Devkit](https://github.com/PaulRBerg/devkit) (`@prb/devkit`)
+> has taken over its role by providing shared configuration as a package.
+>
+> Use devkit instead of this template. To import its standardized TypeScript configuration, install `@prb/devkit` and
+> set `"extends": "@prb/devkit/tsconfig/base"` in your `tsconfig.json`.
+
 A template for developing TypeScript-based Node.js projects, with sensible defaults.
 
 ## Getting Started
